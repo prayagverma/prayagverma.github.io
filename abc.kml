@@ -309,49 +309,49 @@ http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
 </coordinates>
 </LineString>
 </Placemark>
-<Placemark><name>Marker 1</name>
+<Placemark><name>New Delhi</name>
 <description>Middle Circle, Block A, Connaught Place, New Delhi, Delhi 110001, India</description>
 <styleUrl>#markerstyle</styleUrl>
 <Point>
 <coordinates>77.217267,28.632740,0.0</coordinates>
 </Point>
 </Placemark>
-<Placemark><name>Marker 2</name>
+<Placemark><name>Sonipat</name>
 <description>Grand Trunk Road, Rai, Haryana 131029, India</description>
 <styleUrl>#markerstyle</styleUrl>
 <Point>
 <coordinates>77.091429,28.931327,0.0</coordinates>
 </Point>
 </Placemark>
-<Placemark><name>Marker 3</name>
+<Placemark><name>Panipat</name>
 <description>Old Housing Board Colony, Panipat, Haryana 132103, India</description>
 <styleUrl>#markerstyle</styleUrl>
 <Point>
 <coordinates>76.970123,29.391504,0.0</coordinates>
 </Point>
 </Placemark>
-<Placemark><name>Marker 4</name>
+<Placemark><name>Karnal</name>
 <description>Khatrian Mohalla, Karnal, Haryana, India</description>
 <styleUrl>#markerstyle</styleUrl>
 <Point>
 <coordinates>76.991985,29.683118,0.0</coordinates>
 </Point>
 </Placemark>
-<Placemark><name>Marker 5</name>
+<Placemark><name>Shahabad Markanda</name>
 <description>Grand Trunk Road, Shahabad Markanda, Haryana 136135</description>
 <styleUrl>#markerstyle</styleUrl>
 <Point>
 <coordinates>76.864809,30.169063,0.0</coordinates>
 </Point>
 </Placemark>
-<Placemark><name>Marker 6</name>
+<Placemark><name>Ambala</name>
 <description>National Highway 65, Ambala, Haryana 133006, India</description>
 <styleUrl>#markerstyle</styleUrl>
 <Point>
 <coordinates>76.772087,30.377190,0.0</coordinates>
 </Point>
 </Placemark>
-<Placemark><name>Marker 7</name>
+<Placemark><name>Chandigarh</name>
 <description>Jan Marg, Sector 17, Chandigarh, 160017, India</description>
 <styleUrl>#markerstyle</styleUrl>
 <Point>
