@@ -6,23 +6,28 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '*/1200 * * * *'
+    - cron: '*/5 9-16 * * 1-5'
 
 jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
-      # This step installs Deno, which is a new Javascript runtime that improves on Node. Can be used for an optional postprocessing step
-      - name: Setup deno
-        uses: denoland/setup-deno@main
-        with:
-          deno-version: v1.10.x
-      # Check out the repository so it can read the files inside of it and do other operations
-      - name: Check out repo
+      - name: checkout
         uses: actions/checkout@v2
-      # The Flat Action step. We fetch the data in the http_url and save it as downloaded_filename
-      - name: Fetch data
-        uses: githubocto/flat@v3
         with:
-          http_url: https://www.nseindia.com/api/sovereign-gold-bonds?csv=true
-          downloaded_filename: data.csv
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Open page and save cookies
+        run: |
+             curl 'https://www.nseindia.com/market-data/sovereign-gold-bond' --header 'authority: www.nseindia.com' --header 'accept: */*' --header 'accept-language: en' --header 'dnt: 1' --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36' --header 'x-requested-with: XMLHttpRequest' --cookie-jar cookies.txt --compressed
+      - name: read cookies and fetch file
+        id: cookies
+        run: |
+              curl 'https://www.nseindia.com/api/sovereign-gold-bonds?csv=true' --header 'authority: www.nseindia.com' --header 'accept: */*' --header 'accept-language: en' --header 'dnt: 1' --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36' --header 'x-requested-with: XMLHttpRequest' --compressed -b cookies.txt > sgb.csv
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.PAT }}
+          branch: master
+        
+        
