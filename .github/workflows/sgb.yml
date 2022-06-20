@@ -1,4 +1,4 @@
-name: Flat
+name: SGB
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '*/15 14-22 * * 1-5'
+    - cron: '*/15 3-11 * * 1-5'
 
 jobs:
   scheduled:
