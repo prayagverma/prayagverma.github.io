@@ -19,11 +19,11 @@ jobs:
           fetch-depth: 0
       - name: Open page and save cookies
         run: |
-             curl 'https://www.nseindia.com/market-data/sovereign-gold-bond' --header 'authority: www.nseindia.com' --header 'accept: */*' --header 'accept-language: en' --header 'dnt: 1' --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36' --header 'x-requested-with: XMLHttpRequest' --cookie-jar cookies.txt --compressed
+             curl 'https://www.nseindia.com/products-services/equity-market-categorisation-stocks-imposition-of-margins' --header 'authority: www.nseindia.com' --header 'accept: */*' --header 'accept-language: en' --header 'dnt: 1' --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36' --header 'x-requested-with: XMLHttpRequest' --cookie-jar cookies.txt --compressed
       - name: read cookies and fetch file
         id: cookies
         run: |
-              curl 'https://www.nseindia.com/api/sovereign-gold-bonds?csv=true' --header 'authority: www.nseindia.com' --header 'accept: */*' --header 'accept-language: en' --header 'dnt: 1' --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36' --header 'x-requested-with: XMLHttpRequest' --compressed -b cookies.txt > sgb.csv
+              curl 'https://nsearchives.nseindia.com/content/nsccl/C_CATG.T01' --header 'authority: www.nseindia.com' --header 'accept: */*' --header 'accept-language: en' --header 'dnt: 1' --header 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36' --header 'x-requested-with: XMLHttpRequest' --compressed -b cookies.txt > sgb.csv
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
