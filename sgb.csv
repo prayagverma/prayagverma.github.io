@@ -71,7 +71,7 @@
 <link href="/assets/css/style.css?v=1.27" rel="stylesheet">
 <link rel="preload" as="image" href="/assets/images/NSE_Logo.svg"  fetchpriority="high">
 
-<script nonce="3EYAe0bKFtMi9xN4M9Xzpw==">
+<script nonce="tRbZiTLQToGxZL+PKclhrQ==">
     document.addEventListener('DomConntentLoaded', () =>{
         const googleFontLinks = document.getElementById('google-fonts');
         if(googleFontLinks){
@@ -84,8 +84,8 @@
 
       
     <meta name="appVersion" content="v3.0.12" />
-    <script nonce="3EYAe0bKFtMi9xN4M9Xzpw==" >
-      window.headerData = {"marketStatus":{"marketState":[{"market":"Capital Market","marketStatus":"Closed","tradeDate":"04-Aug-2025 15:30","index":"NIFTY 50","last":24722.75,"variation":157.40000000000146,"percentChange":0.64,"marketStatusMessage":"Normal Market has Closed"},{"market":"Currency","marketStatus":"Open","tradeDate":"04-Aug-2025","index":"","last":"","variation":"","percentChange":"","marketStatusMessage":"Market is Open"},{"market":"Commodity","marketStatus":"Open","tradeDate":"04-Aug-2025","index":"","last":"","variation":"","percentChange":"","marketStatusMessage":"Market is Open"},{"market":"Debt","marketStatus":"Open","tradeDate":"04-Aug-2025","index":"","last":"","variation":"","percentChange":"","marketStatusMessage":"Market is Open"},{"market":"currencyfuture","marketStatus":"Open","tradeDate":"04-Aug-2025","index":"","last":"87.7425","variation":"","percentChange":"","marketStatusMessage":"Market is Open","expiryDate":"26-Aug-2025","underlying":"USDINR","updated_time":"04-Aug-2025 16:27","tradeDateFormatted":"04-Aug-2025 16:27","slickclass":"slick-item"}],"marketcap":{"timeStamp":"04-Aug-2025","marketCapinTRDollars":5.1,"marketCapinLACCRRupees":445.9851824120058,"marketCapinCRRupees":44598518.24,"marketCapinCRRupeesFormatted":"44,598,518.24","marketCapinLACCRRupeesFormatted":"445.99","underlying":"Market Cap"},"indicativenifty50":{"dateTime":"04-Aug-2025 15:30","indicativeTime":null,"indexName":"NIFTY 50","indexLast":null,"indexPercChange":null,"indexTimeVal":null,"closingValue":24722.75,"finalClosingValue":24722.75,"change":157.37,"perChange":0.64,"status":"CLOSE"},"giftnifty":{"INSTRUMENTTYPE":"FUTIDX","SYMBOL":"NIFTY","EXPIRYDATE":"28-Aug-2025","OPTIONTYPE":"-","STRIKEPRICE":"-","LASTPRICE":24784,"DAYCHANGE":"115.00","PERCHANGE":"            0.47","CONTRACTSTRADED":45681,"TIMESTMP":"04-Aug-2025 16:00","id":"1/NIFTYFUTIDX28-Aug-2025--"}},"ejsHelpers":{"util":{}}}
+    <script nonce="tRbZiTLQToGxZL+PKclhrQ==" >
+      window.headerData = {"marketStatus":{"marketState":[{"market":"Capital Market","marketStatus":"Closed","tradeDate":"04-Aug-2025 15:30","index":"NIFTY 50","last":24722.75,"variation":157.40000000000146,"percentChange":0.64,"marketStatusMessage":"Normal Market has Closed"},{"market":"Currency","marketStatus":"Open","tradeDate":"04-Aug-2025","index":"","last":"","variation":"","percentChange":"","marketStatusMessage":"Market is Open"},{"market":"Commodity","marketStatus":"Open","tradeDate":"04-Aug-2025","index":"","last":"","variation":"","percentChange":"","marketStatusMessage":"Market is Open"},{"market":"Debt","marketStatus":"Open","tradeDate":"04-Aug-2025","index":"","last":"","variation":"","percentChange":"","marketStatusMessage":"Market is Open"},{"market":"currencyfuture","marketStatus":"Open","tradeDate":"04-Aug-2025","index":"","last":"87.7250","variation":"","percentChange":"","marketStatusMessage":"Market is Open","expiryDate":"26-Aug-2025","underlying":"USDINR","updated_time":"04-Aug-2025 16:44","tradeDateFormatted":"04-Aug-2025 16:44","slickclass":"slick-item"}],"marketcap":{"timeStamp":"04-Aug-2025","marketCapinTRDollars":5.1,"marketCapinLACCRRupees":445.9851824120058,"marketCapinCRRupees":44598518.24,"marketCapinCRRupeesFormatted":"44,598,518.24","marketCapinLACCRRupeesFormatted":"445.99","underlying":"Market Cap"},"indicativenifty50":{"dateTime":"04-Aug-2025 15:30","indicativeTime":null,"indexName":"NIFTY 50","indexLast":null,"indexPercChange":null,"indexTimeVal":null,"closingValue":24722.75,"finalClosingValue":24722.75,"change":157.37,"perChange":0.64,"status":"CLOSE"},"giftnifty":{"INSTRUMENTTYPE":"FUTIDX","SYMBOL":"NIFTY","EXPIRYDATE":"28-Aug-2025","OPTIONTYPE":"-","STRIKEPRICE":"-","LASTPRICE":24778,"DAYCHANGE":"-6.00","PERCHANGE":"           -0.02","CONTRACTSTRADED":45713,"TIMESTMP":"04-Aug-2025 16:43","id":"1/NIFTYFUTIDX28-Aug-2025--"}},"ejsHelpers":{"util":{}}}
       var checkDownloadFile = true;
       var downloadAnchorTag;
     </script>
@@ -95,7 +95,7 @@
     
     <!-- Google Tag Manager -->
 
-<script nonce="3EYAe0bKFtMi9xN4M9Xzpw==">
+<script nonce="tRbZiTLQToGxZL+PKclhrQ==">
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});
 var f=d.getElementsByTagName(s)[0],
@@ -107,25 +107,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
         <!-- Google tag (gtag.js) -->
-    <script nonce="3EYAe0bKFtMi9xN4M9Xzpw==" async src=https://www.googletagmanager.com/gtag/js?id=G-87M7PJ3R97></script>
-    <script nonce="3EYAe0bKFtMi9xN4M9Xzpw==">
+    <script nonce="tRbZiTLQToGxZL+PKclhrQ==" async src=https://www.googletagmanager.com/gtag/js?id=G-87M7PJ3R97></script>
+    <script nonce="tRbZiTLQToGxZL+PKclhrQ==">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-87M7PJ3R97');
     </script>
-  <script >bazadebezolkohpepadr="1235976842"</script><script type="text/javascript" src="https://nsearchives.nseindia.com/akam/13/49ab8057"  defer></script></head>
+  <script >bazadebezolkohpepadr="1993644592"</script><script type="text/javascript" src="https://nsearchives.nseindia.com/akam/13/76d49b9a"  defer></script></head>
   <body class="notranslate" direction="rtl">
     <!-- Google Tag Manager (noscript) -->
 
-<noscript nonce="3EYAe0bKFtMi9xN4M9Xzpw==" ><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M48PCVJL"
+<noscript nonce="tRbZiTLQToGxZL+PKclhrQ==" ><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M48PCVJL"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 <!-- End Google Tag Manager (noscript) -->
     
     <div id="pageLoader"><div class="loader-wrp"><div class="spin-loader" aria-hidden="true"></div></div></div>
     <script src="/assets/js/multilingual/library.js"></script>
-<script nonce="3EYAe0bKFtMi9xN4M9Xzpw==">
+<script nonce="tRbZiTLQToGxZL+PKclhrQ==">
     function adjustSelectWidth(selectElement) {
     const text = selectElement.options[selectElement.selectedIndex].text;
     const tempSpan = document.createElement("span");
@@ -310,16 +310,16 @@ window.addEventListener("load", () => {
                     <img src="/assets/images/gift-nifty.png" alt="GiftNifty"><span class="expirydate" dir="ltr">Futures 28-Aug-2025</span>
                 </div>
                 <div class="logo_with_text giftNifty_val">
-                    <span><span class="lastprice">24,784.00</span>
-                        <i class="market-up-down fa fa-caret-up cool-green"></i>
-                        <span  class="per greenTxt" >
-                            <span> 115.00</span> (<span>0.47</span>%)</span>
+                    <span><span class="lastprice">24,778.00</span>
+                        <i class="market-up-down fa fa-caret-down cool-red"></i>
+                        <span  class="per redTxt" >
+                            <span> -6.00</span> (<span>-0.02</span>%)</span>
                     </span>
                 </div>
             </div>
             <div class="widget_body" style="margin-top: -4px;">
                 <p class="next_date">
-                    <span class="giftnifty-tradedate" dir="ltr">04-Aug-2025 16:00</span>
+                    <span class="giftnifty-tradedate" dir="ltr">04-Aug-2025 16:43</span>
                 </p>
             </div>
         </div>
@@ -331,8 +331,8 @@ window.addEventListener("load", () => {
         <figure class="USDLogo"> <a href="/currency-getquote?symbol=USDINR#inr-contracts" target="_blank">
             <span id="usdinr">USDINR</span></a> &nbsp; <span id="futures" class="darkTxt">Futures</span>
         </figure>
-        <p class="darkTxt"><span class="darkTxt" dir="ltr">26-Aug-2025</span> | <i class="fa fa-inr" aria-hidden="true"></i><span class="home-header-currencyfuturelast">87.7425 </span></p>
-        <p class="greyTxt currencyfuture-tradedate"><span dir="ltr">04-Aug-2025 16:27</span></p>
+        <p class="darkTxt"><span class="darkTxt" dir="ltr">26-Aug-2025</span> | <i class="fa fa-inr" aria-hidden="true"></i><span class="home-header-currencyfuturelast">87.7250 </span></p>
+        <p class="greyTxt currencyfuture-tradedate"><span dir="ltr">04-Aug-2025 16:44</span></p>
     </div>
 </div>  
 <div class="form-inline niftyFifty">
@@ -1193,16 +1193,16 @@ window.addEventListener("load", () => {
                     <img src="/assets/images/gift-nifty.png" alt="GiftNifty"><span class="expirydate" dir="ltr">Futures 28-Aug-2025</span>
                 </div>
                 <div class="logo_with_text giftNifty_val">
-                    <span><span class="lastprice">24,784.00</span>
-                        <i class="market-up-down fa fa-caret-up cool-green"></i>
-                        <span  class="per greenTxt" >
-                            <span> 115.00</span> (<span>0.47</span>%)</span>
+                    <span><span class="lastprice">24,778.00</span>
+                        <i class="market-up-down fa fa-caret-down cool-red"></i>
+                        <span  class="per redTxt" >
+                            <span> -6.00</span> (<span>-0.02</span>%)</span>
                     </span>
                 </div>
             </div>
             <div class="widget_body" style="margin-top: -4px;">
                 <p class="next_date">
-                    <span class="giftnifty-tradedate" dir="ltr">04-Aug-2025 16:00</span>
+                    <span class="giftnifty-tradedate" dir="ltr">04-Aug-2025 16:43</span>
                 </p>
             </div>
         </div>
@@ -1214,8 +1214,8 @@ window.addEventListener("load", () => {
         <figure class="USDLogo"> <a href="/currency-getquote?symbol=USDINR#inr-contracts" target="_blank">
             <span id="usdinr">USDINR</span></a> &nbsp; <span id="futures" class="darkTxt">Futures</span>
         </figure>
-        <p class="darkTxt"><span class="darkTxt" dir="ltr">26-Aug-2025</span> | <i class="fa fa-inr" aria-hidden="true"></i><span class="home-header-currencyfuturelast">87.7425 </span></p>
-        <p class="greyTxt currencyfuture-tradedate"><span dir="ltr">04-Aug-2025 16:27</span></p>
+        <p class="darkTxt"><span class="darkTxt" dir="ltr">26-Aug-2025</span> | <i class="fa fa-inr" aria-hidden="true"></i><span class="home-header-currencyfuturelast">87.7250 </span></p>
+        <p class="greyTxt currencyfuture-tradedate"><span dir="ltr">04-Aug-2025 16:44</span></p>
     </div>
 </div>  
 <div class="form-inline niftyFifty">
@@ -2170,7 +2170,7 @@ window.addEventListener("load", () => {
     </div>
 </div></div>
     
-              <script nonce="3EYAe0bKFtMi9xN4M9Xzpw==">
+              <script nonce="tRbZiTLQToGxZL+PKclhrQ==">
                 var streamURL = 'wss://www.nseindia.com/';
               </script>
     <div id="error-snackbar"></div>
